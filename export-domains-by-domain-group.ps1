@@ -1,9 +1,5 @@
 # This script will output a CSV file of all domain groups on an account with each domain. 
-
-Note: 
-````
-/customers/{customer}/domaingroup````
- will not work, as domain groups are filters that include wildcards. 1 domain can belong to many domain groups.
+# Note: /customers/{customer}/domaingroup will not display domains in domain groups, as domain groups are filters that can include wildcards. 1 domain can belong to many domain groups.
 
 $token = "<--api-token-->"
 $custid = "<--customer-id-->"
