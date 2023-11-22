@@ -16,7 +16,7 @@ function getTokenAndStore(){
 }
 
 const echoPostRequest = {
-  url: pm.variables.get("dmarcurl") + '/login/access_token',
+  url: 'https://api.dmarcanalyzer.com/login/access_token',
   method: 'POST',
   header: 'Content-Type:application/json',
   body: {
